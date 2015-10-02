@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        tools:ignore="RtlHardcoded" >
+
+        <EditText
+            android:id="@+id/kotaEdit"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Kota, Negara"
+            tools:ignore="HardcodedText" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/cariTmbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cari"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/cuacaText"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Cuaca:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/suhu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="    degC"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Tekanan:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/tekanan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="    hPa"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Kelembaban:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/lembab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="    %"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/anginText"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Angin:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/kecAngin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    mps"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/degAngin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     &quot;"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</LinearLayout>
